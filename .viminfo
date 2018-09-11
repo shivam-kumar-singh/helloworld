@@ -11,10 +11,10 @@
 $
 
 # Command Line History (newest to oldest):
-:q!
 :wq
-:wq!
+:q!
 :q
+:wq!
 
 # Search String History (newest to oldest):
 ??\a
@@ -32,27 +32,28 @@ $
 	)
 
 # File marks:
-'0  1  0  ~/hello.java
-'1  4  45  ~/hello.java
-'2  21  30  /etc/sudoers
-'3  1  0  ~/sudoers
-'4  20  16  /etc/sudoers
-'5  66  0  /etc
-'6  10  1  ~/hello.java
-'7  1  0  /var/lib/jenkins/config.xml
-'8  26  23  /etc/default/jenkins
-'9  1  31  ~/.bash_profile
+'0  4  62  ~/hello.java
+'1  5  4  ~/hello.java
+'2  3  66  ~/hello.java
+'3  1  0  ~/hello.java
+'4  3  99  ~/hello.java
+'5  21  30  /etc/sudoers
+'6  1  0  ~/sudoers
+'7  20  16  /etc/sudoers
+'8  66  0  /etc
+'9  3  58  ~/hello.java
 
 # Jumplist (newest first):
+-'  4  62  ~/hello.java
 -'  1  0  ~/hello.java
--'  4  45  ~/hello.java
+-'  5  4  ~/hello.java
+-'  3  66  ~/hello.java
 -'  21  30  /etc/sudoers
 -'  1  0  /etc/sudoers
 -'  1  0  ~/sudoers
 -'  20  16  /etc/sudoers
 -'  66  0  /etc
 -'  1  0  /etc
--'  10  1  ~/hello.java
 -'  1  0  /var/lib/jenkins/config.xml
 -'  26  23  /etc/default/jenkins
 -'  1  0  /etc/default/jenkins
@@ -145,13 +146,17 @@ $
 # History of marks within files (newest to oldest):
 
 > ~/hello.java
-	"	1	0
-	^	4	46
-	.	4	45
-	+	10	2
-	+	6	0
+	"	4	62
+	^	4	63
+	.	4	62
+	+	3	59
+	+	3	57
 	+	1	17
-	+	4	45
+	+	3	57
+	+	3	66
+	+	4	0
+	+	5	5
+	+	4	62
 
 > /etc/sudoers
 	"	21	30
